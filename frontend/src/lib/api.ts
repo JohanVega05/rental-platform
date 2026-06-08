@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://rental-platform-0i9r.onrender.com/api'
+  baseURL: 'https://rental-platform-0i9r.onrender.com/api'
 })
 
 api.interceptors.request.use((config) => {
